@@ -11,7 +11,7 @@ class Runner():
         imagen=pygame.image.load("imagenes/{}.png".format(self.__customes[ixCustome]))
         self.custome= pygame.transform.scale(imagen, (60,60))
         self.position =[x,y]
-        self.name= "Tortuga"
+        self.name= ""
 
     def avanzar(self):
         self.position[0]+= random.randint(1,6)
